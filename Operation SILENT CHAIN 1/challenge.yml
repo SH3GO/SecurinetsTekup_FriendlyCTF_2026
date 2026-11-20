@@ -10,4 +10,17 @@ One entry reveals a secondary communication channel an online alias used for cov
 Identifying this alias is critical to tracing the group’s digital footprint.
 
 Flag_Format:Securinets{@alias)
+**author**: SH3G0
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 10
+  minimum: 10
+flags:
+  - Securinets{@syriaobserver}
+requirements:
+  - "Operation SILENT CHAIN 0"
+
 
