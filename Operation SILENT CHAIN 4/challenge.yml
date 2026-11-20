@@ -8,9 +8,9 @@ New intelligence confirms Richard Vance’s direct involvement in Silent Chain�
 As AstraLink’s CEO, he authorized a high-priority air transfer under the guise of humanitarian aid. 
 Leaked schedules suggest he may have even boarded the flight himself to discreetly inspect operations on the ground. 
 The aircraft is believed to have departed from an AstraLink-partnered hub in Europe. 
-Using the recovered details, identify the aircraft’s registered owner and its manufacturer serial number to expose 
+Using the recovered details, identify the aircraft’s Last action date and its manufacturer serial number to expose 
 the logistical backbone of Silent Chain’s next operation.
 
-Flag_Format:Securinets{Airplane_Owner_SerialNumber}
+Flag_Format:Securinets{Last-Action-Date_SerialNumber}
 
     
