@@ -24,5 +24,5 @@ extra:
 flags:
   - Securinets{SC_Alpha15}
 requirements:
-  - "Operation SILENT CHAIN 0"
+  - 
 
