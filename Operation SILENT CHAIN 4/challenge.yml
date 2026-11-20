@@ -11,6 +11,6 @@ The aircraft is believed to have departed from an AstraLink-partnered hub in Eur
 Using the recovered details, identify the aircraft’s registered owner and its manufacturer serial number to expose 
 the logistical backbone of Silent Chain’s next operation.
 
-Flag_Format:FL1TZ{Airplane_Owner_SerialNumber}
+Flag_Format:Securinets{Airplane_Owner_SerialNumber}
 
     
