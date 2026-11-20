@@ -1,4 +1,4 @@
-# FL1TZ_SummerRushCTF_2025(Writeup)
+# SecurinetsTekup_friendlyCTF_2026(Writeup)
 
 
 
