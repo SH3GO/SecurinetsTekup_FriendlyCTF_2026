@@ -12,5 +12,20 @@ Using the recovered details, identify the aircraft’s Last action date and its 
 the logistical backbone of Silent Chain’s next operation.
 
 Flag_Format:Securinets{Last-Action-Date_SerialNumber}
+**author**: SH3G0
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 10
+  minimum: 10
+flags:
+  - Securinets{2020-05-18_6424}
+requirements:
+  - "Operation SILENT CHAIN 3"
+
+
+
 
     
