@@ -13,6 +13,8 @@ your mission is clear: comb through the logs, identify the codeword
 
 Flag_Format:Securinets{codeword}
 
+**author**: SH3G0
+
 value: 500
 type: dynamic
 extra:
@@ -20,7 +22,7 @@ extra:
   decay: 10
   minimum: 10
 flags:
-  - Securinets{Evan_Marlowe}
+  - Securinets{SC_Alpha15}
 requirements:
   - "Operation SILENT CHAIN 0"
 
