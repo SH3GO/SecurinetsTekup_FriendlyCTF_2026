@@ -22,5 +22,7 @@ flags:
   - Securinets{@syriaobserver}
 requirements:
   - "Operation SILENT CHAIN 0"
+files:
+  - handout/SC_LOGS_07-25.7Z
 
 
