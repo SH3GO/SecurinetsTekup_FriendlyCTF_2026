@@ -11,4 +11,17 @@ Your next mission: identify the individual at the top of this organization. Foll
 The answer lies with those who know where to look.
 
 Flag_Format:Securinets{Firstname_Lastname}
+**author**: SH3G0
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 10
+  minimum: 10
+flags:
+  - Securinets{Richard_Vance}
+requirements:
+  - "Operation SILENT CHAIN 2"
+
 
