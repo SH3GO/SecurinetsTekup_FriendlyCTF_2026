@@ -25,4 +25,6 @@ flags:
   - Securinets{SC_Alpha15}
 requirements:
   - 
+  files:
+  - handout/FIELD_INTEL_LOGS_2025.PDF
 
