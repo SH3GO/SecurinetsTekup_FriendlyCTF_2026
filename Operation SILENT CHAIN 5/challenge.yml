@@ -12,5 +12,18 @@ Locate their stronghold, confirm its coordinates, and pave the way for CIRU’s 
 The success of this mission and countless lives depends on you.
 
 Flag format: Securinets{latitude_longitude}
+**author**: SH3G0
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 10
+  minimum: 10
+flags:
+  - Securinets{35.611226_36.123452}
+requirements:
+  - "Operation SILENT CHAIN 4"
+
 
 
