@@ -1,33 +1,31 @@
-name: "Operation SILENT CHAIN 4"
-author: "SH3G0"
-category: osint
-description: |-
+challenges:
+  - category: osint
+    # EDIT: Display name shown to players.
+    name: Operation SILENT CHAIN 4
+    # EDIT: Author/team name.
+    author: SH3G0
+    # EDIT: Player-facing description. Do not include the solution or flag.
+    description: |
+      **INTELLIGENCE REPORT 5/6**
 
-**INTELLIGENCE REPORT 5/6
-New intelligence confirms his direct involvement in Silent Chain’s logistics network. 
-As AstraLink’s CEO, he authorized a high-priority air transfer under the guise of humanitarian aid. 
-Leaked schedules suggest he may have even boarded the flight himself to discreetly inspect operations on the ground. 
-The aircraft is believed to have departed from an AstraLink-partnered hub in Europe. 
-Using the recovered details, identify the aircraft’s Last action date and its manufacturer serial number to expose 
-the logistical backbone of Silent Chain’s next operation.
+      New intelligence confirms his direct involvement in Silent Chain's logistics network.
+      As AstraLink's CEO, he authorized a high-priority air transfer under the guise of humanitarian aid.
+      Leaked schedules suggest he may have even boarded the flight himself to discreetly inspect operations on the ground.
 
-Flag_Format:Securinets{Last-Action-Date_SerialNumber}
-**author**: SH3G0
+      The aircraft is believed to have departed from an AstraLink-partnered hub in Europe.
+      Using the recovered details, identify the aircraft's last action date and its manufacturer serial number to expose the logistical backbone of Silent Chain's next operation.
 
-value: 500
-type: dynamic
-extra:
-  initial: 500
-  decay: 10
-  minimum: 10
-flags:
-  - Securinets{2020-05-18_6424}
-requirements:
-  - "Operation SILENT CHAIN 3"
-files:
-  - handout/Email.txt
-
-
-
-
-    
+      Flag format: Securinets{Last-Action-Date_SerialNumber}
+    # EDIT: Optional player-facing tags.
+    tags: []
+    # EDIT: Adjust points if needed.
+    scoring:
+      initialValue: 500
+      minimumValue: 10
+    # EDIT: Replace with the real shared flag. Keep the rctf key unchanged.
+    flags:
+      rctf: Securinets{2020-05-18_6424}
+    # KEEP: Only list files intended for players. Never add solution/.
+    attachments:
+      files:
+        - handout/Email.txt
