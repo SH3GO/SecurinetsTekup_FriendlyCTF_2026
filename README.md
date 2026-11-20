@@ -42,8 +42,8 @@ A leaked email from Richard Vance authorized a high-priority air transfer.
 The aircraft was a Gulfstream G650, chartered through Gama Aviation.
 Following the trail, the key was Gama Aviation’s website: searching for the G650 led to an article showing the plane with its registration number N650GA.
 <img width="975" height="522" alt="image" src="https://github.com/user-attachments/assets/d5b561b9-b560-4203-8610-86b5899f1764" />  
-From there, all other details about the aircraft, including its registered owner and manufacturer serial number, were easily traceable(just google it).  
-Flag: Securinets{Gulfstream_Aerospace_Corp_6424}
+From there, all other details about the aircraft, including its last action date and manufacturer serial number, were easily traceable(just google it).  
+Flag: Securinets{2020-05-18_6424}
 
 
 
