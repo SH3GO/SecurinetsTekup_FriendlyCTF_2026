@@ -1,30 +1,32 @@
-name: "Operation SILENT CHAIN 0"
-author: "SH3G0"
-category: osint
-description: |-
+challenges:
+  - category: osint
+    # EDIT: Display name shown to players.
+    name: Operation SILENT CHAIN 0
+    # EDIT: Author/team name.
+    author: SH3G0
+    # EDIT: Player-facing description. Do not include the solution or flag.
+    description: |
+      **INTELLIGENCE REPORT 1/6**
 
-**INTELLIGENCE REPORT 1/6
-Silent Chain, a rogue paramilitary network, is escalating its operations across the Middle East and Europe. 
-CIRU (Cyber Intelligence Response Unit) has been tasked with dismantling their chain of command before they execute a series of coordinated strikes.
-Last week, during a raid on a Silent Chain safehouse in northern Syria, CIRU recovered a seized data drive containing weeks of raw intelligence—patrol reports,
-intercepted radio chatter, and logistics updates. Buried in the chaos is a critical codeword, a failsafe left behind by a careless operative. 
-Intelligence suggests this codeword is the key to accessing Silent Chain’s fallback systems and may expose high-value targets and their next strike plans.
-your mission is clear: comb through the logs, identify the codeword 
+      Silent Chain, a rogue paramilitary network, is escalating its operations across the Middle East and Europe.
+      CIRU (Cyber Intelligence Response Unit) has been tasked with dismantling their chain of command before they execute a series of coordinated strikes.
 
-Flag_Format:Securinets{codeword}
+      Last week, during a raid on a Silent Chain safehouse in northern Syria, CIRU recovered a seized data drive containing weeks of raw intelligence: patrol reports, intercepted radio chatter, and logistics updates. Buried in the chaos is a critical codeword, a failsafe left behind by a careless operative.
+      Intelligence suggests this codeword is the key to accessing Silent Chain's fallback systems and may expose high-value targets and their next strike plans.
 
-**author**: SH3G0
+      Your mission is clear: comb through the logs and identify the codeword.
 
-value: 500
-type: dynamic
-extra:
-  initial: 500
-  decay: 10
-  minimum: 10
-flags:
-  - Securinets{SC_Alpha15}
-requirements:
-  - 
-  files:
-  - handout/FIELD_INTEL_LOGS_2025.PDF
-
+      Flag format: Securinets{codeword}
+    # EDIT: Optional player-facing tags.
+    tags: []
+    # EDIT: Adjust points if needed.
+    scoring:
+      initialValue: 500
+      minimumValue: 10
+    # EDIT: Replace with the real shared flag. Keep the rctf key unchanged.
+    flags:
+      rctf: Securinets{SC_Alpha15}
+    # KEEP: Only list files intended for players. Never add solution/.
+    attachments:
+      files:
+        - handout/FIELD_INTEL_LOGS_2025.PDF
