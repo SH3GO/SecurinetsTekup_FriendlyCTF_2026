@@ -24,6 +24,8 @@ flags:
   - Securinets{35.611226_36.123452}
 requirements:
   - "Operation SILENT CHAIN 4"
+files:
+  - handout/opsat_blackbird_v3_INTEL-TS.jpg
 
 
 
