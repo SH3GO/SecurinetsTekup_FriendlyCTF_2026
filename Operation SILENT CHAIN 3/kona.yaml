@@ -1,27 +1,29 @@
-name: "Operation SILENT CHAIN 3"
-author: "SH3G0"
-category: osint
-description: |-
+challenges:
+  - category: osint
+    # EDIT: Display name shown to players.
+    name: Operation SILENT CHAIN 3
+    # EDIT: Author/team name.
+    author: SH3G0
+    # EDIT: Player-facing description. Do not include the solution or flag.
+    description: |
+      **INTELLIGENCE REPORT 4/6**
 
-**INTELLIGENCE REPORT 4/6
-Our suspect is just one link in the chain. Field intelligence suggests he’s connected 
-to a larger corporate network quietly enabling Silent Chain’s operations in Syria. 
-Analysts believe the company he works for is not only aware of these activities but directly involved.
-Your next mission: identify the individual at the top of this organization. Follow Holmes’s professional footprint and technical contributions. 
-The answer lies with those who know where to look.
+      Our suspect is just one link in the chain. Field intelligence suggests he's connected to a larger corporate network quietly enabling Silent Chain's operations in Syria.
+      Analysts believe the company he works for is not only aware of these activities but directly involved.
 
-Flag_Format:Securinets{Firstname_Lastname}
-**author**: SH3G0
+      Your next mission: identify the individual at the top of this organization. Follow Holmes's professional footprint and technical contributions.
+      The answer lies with those who know where to look.
 
-value: 500
-type: dynamic
-extra:
-  initial: 500
-  decay: 10
-  minimum: 10
-flags:
-  - Securinets{Richard_Vance}
-requirements:
-  - "Operation SILENT CHAIN 2"
-
-
+      Flag format: Securinets{Firstname_Lastname}
+    # EDIT: Optional player-facing tags.
+    tags: []
+    # EDIT: Adjust points if needed.
+    scoring:
+      initialValue: 500
+      minimumValue: 10
+    # EDIT: Replace with the real shared flag. Keep the rctf key unchanged.
+    flags:
+      rctf: Securinets{Richard_Vance}
+    # KEEP: Only list files intended for players. Never add solution/.
+    attachments:
+      files: []
