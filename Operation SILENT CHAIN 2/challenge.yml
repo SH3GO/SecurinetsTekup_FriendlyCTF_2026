@@ -11,6 +11,19 @@ This slip could be the key to identifying the individual behind the alias.
 Your mission: Investigate their digital footprint and uncover the true identity of the person operating under @syriaobserver 
 
 Flag_Format:Securinets{Full_Name}
+**author**: SH3G0
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 10
+  minimum: 10
+flags:
+  - Securinets{David_Holmes}
+requirements:
+  - "Operation SILENT CHAIN 1"
+
 
     
 
