@@ -1,30 +1,29 @@
-name: "Operation SILENT CHAIN 2"
-author: "SH3G0"
-category: osint
-description: |-
+challenges:
+  - category: osint
+    # EDIT: Display name shown to players.
+    name: Operation SILENT CHAIN 2
+    # EDIT: Author/team name.
+    author: SH3G0
+    # EDIT: Player-facing description. Do not include the solution or flag.
+    description: |
+      **INTELLIGENCE REPORT 3/6**
 
-**INTELLIGENCE REPORT 3/6
-The online alias has been active across technical forums and quietly distributing tools to other operatives. 
-Intelligence suggests one of these tools may carry traces of its creator perhaps a real name accidentally left behind. 
-This slip could be the key to identifying the individual behind the alias.
+      The online alias has been active across technical forums and quietly distributing tools to other operatives.
+      Intelligence suggests one of these tools may carry traces of its creator, perhaps a real name accidentally left behind.
+      This slip could be the key to identifying the individual behind the alias.
 
-Your mission: Investigate their digital footprint and uncover the true identity of the person operating under @syriaobserver 
+      Your mission: investigate their digital footprint and uncover the true identity of the person operating under @syriaobserver.
 
-Flag_Format:Securinets{Full_Name}
-**author**: SH3G0
-
-value: 500
-type: dynamic
-extra:
-  initial: 500
-  decay: 10
-  minimum: 10
-flags:
-  - Securinets{David_Holmes}
-requirements:
-  - "Operation SILENT CHAIN 1"
-
-
-    
-
-
+      Flag format: Securinets{Full_Name}
+    # EDIT: Optional player-facing tags.
+    tags: []
+    # EDIT: Adjust points if needed.
+    scoring:
+      initialValue: 500
+      minimumValue: 10
+    # EDIT: Replace with the real shared flag. Keep the rctf key unchanged.
+    flags:
+      rctf: Securinets{David_Holmes}
+    # KEEP: Only list files intended for players. Never add solution/.
+    attachments:
+      files: []
