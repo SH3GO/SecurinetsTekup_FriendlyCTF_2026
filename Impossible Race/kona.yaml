@@ -1,0 +1,16 @@
+challenges:
+  - category: gamepwn
+    name: Impossible Race
+    author: banga
+    description: |
+      Damn! You are so slow xD
+
+      Download: https://drive.google.com/file/d/13aLCNB0v_DyGTKsQsHUWRFlFi8-HhmJY/view?usp=sharing
+    tags:
+      - gamepwn
+      - cheat-engine
+    scoring:
+      initialValue: 500
+      minimumValue: 10
+    flags:
+      rctf: "Securinets{N33d_F0r_H4ck}"
